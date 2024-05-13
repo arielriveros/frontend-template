@@ -17,6 +17,7 @@ module.exports = {
       '@': path.resolve(__dirname, 'src')
     }
   },
+  devtool: "source-map",
   module: {
     rules: [
       {
@@ -38,7 +39,6 @@ module.exports = {
     hot: true,
     open: false,
     port: 3000,
-    static: ['./public'],
     historyApiFallback: true
   },
   plugins: [
