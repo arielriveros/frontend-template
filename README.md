@@ -17,5 +17,8 @@ Run a development server `npm start`
 
 Default to: http://localhost:3000/
 
+### Test
+Run Jest test suites defined in .test.tsx files inside __test__ folders based on [configration file](/jest.config.ts): `npm run test`
+
 ### Lint
 Check linting based on [configuration file](.eslintrc.json): `npm run lint`

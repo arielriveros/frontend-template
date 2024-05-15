@@ -1,6 +1,6 @@
 import Button from '@/components/Button';
 import Topbar from '@/components/Topbar';
-import Increment from '@/containers/increment/Increment';
+import Increment from '@/containers/Increment';
 import { IncrementContextProvider } from '@/contexts/IncrementContext';
 
 export default function App() {
