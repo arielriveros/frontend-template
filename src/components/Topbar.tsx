@@ -6,7 +6,7 @@ interface TopbarProps {
 
 export default function Topbar(props: TopbarProps) {
   return (
-    <header className='bg-green-500 text-white py-2 px-5'>
+    <header className='flex bg-primary text-white py-2 px-5 items-center space-x-2'>
       {props.children}
     </header>
   );

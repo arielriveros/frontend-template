@@ -1,12 +1,14 @@
 import Button from '@/components/Button';
 import Topbar from '@/components/Topbar';
 import Increment from '@/containers/Increment';
+import ReactLogo from '@/assets/images/react.svg';
 import { IncrementContextProvider } from '@/contexts/IncrementContext';
 
 export default function App() {
   return (
     <main>
       <Topbar>
+        <img src={ReactLogo} alt='React Logo' className='w-10 h-10' />
         <h1 className='text-xl font-bold'>Frontend Template</h1>
       </Topbar>
       <section className='py-5 px-10'>
