@@ -1,7 +1,6 @@
 import Increment from '../Increment';
 import { IncrementContextProvider } from '@/contexts/IncrementContext';
-import { render } from '@testing-library/react';
-import { act } from 'react'; // Import act
+import { render, act } from '@testing-library/react';
 
 describe('Increment', () => {
   it('Renders correctly', () => {
